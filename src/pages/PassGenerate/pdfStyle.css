@@ -1,0 +1,183 @@
+#book {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font: 12pt "Tahoma";
+  }
+  
+  * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  
+  .page {
+    width: 17.8cm;
+    min-height: 21cm;
+    padding: 2cm;
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .subpage {
+    padding: 1cm;
+    border: 5px rgb(255, 255, 255) solid;
+    height: 256mm;
+    outline: 2cm #FFEAEA solid;
+  }
+  
+  .subpageTwo {
+    padding: 0cm;
+    padding-top: 5px;
+    border: 5px rgb(255, 255, 255) solid;
+    height: 256mm;
+    outline: 2cm #FFEAEA solid;
+  }
+  
+  @page {
+    size: landscape;
+    margin: 0;
+  }
+  
+  @media print {
+    .page {
+      margin: 0;
+      border: initial;
+      border-radius: initial;
+      width: initial;
+      min-height: initial;
+      box-shadow: initial;
+      background: initial;
+      page-break-after: always;
+    }
+  }
+
+  .css-1oqqzyl-MuiContainer-root {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .pageOne {
+    width: 21cm;
+    min-height: 29.7cm;
+    /* padding: 2cm; */
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .headName {
+    text-align: center;
+  }
+
+  .headTitle {
+    font-size: 20px;
+    text-align: center;
+  }
+  .subHead {
+    font-size: 12px;
+  }
+  .subHeadEnd {
+    font-size: 12px;
+    text-align: right;
+  }
+
+  .dateAlignment {
+    text-align: right;
+  }
+
+  .subject {
+    margin-top: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 6px;
+  }
+  
+  .subSubject {
+    margin-top: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 6px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .descMain {
+    padding: 5px;
+  }
+
+  .desc{
+    text-decoration: underline;
+    font-size: 12px;
+  }
+
+
+  .table {
+    width: 100%;
+    /* border: 1px solid black; */
+    border-spacing: 0px;
+  }
+  
+  .tableTwo {
+    width: 100%;
+    /* border: 1px solid black; */
+    border-spacing: 0px;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+
+  .borderLine {
+    border: 1px solid black;
+  }
+
+  .borderstyle {
+    padding: 2px;
+  }
+
+  .firstone {
+    width: 70px;
+  }
+
+  .middleone {
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .lastone {
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  .borderLineEmptyLeft{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+  }
+  
+  .borderLineEmptyMiddle{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  .normalLable {
+    font-size: 12px;
+  }
+
+  .boldLable {
+    font-size: 12px;
+  }
+
+  .allignCenter {
+    text-align: center;
+  }
+
+  .allignLeft {
+    text-align: left;
+  }

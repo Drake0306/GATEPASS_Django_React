@@ -1,0 +1,5 @@
+{
+    "TEMP_DB_URL": "https://coppertec.in/gatepassBackend/api/",
+    "DB_URL": "http://127.0.0.1:8000/api/",
+    "CARD_INCRIMENT": "UNA-"
+}
