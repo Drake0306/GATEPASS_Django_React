@@ -1,0 +1,5 @@
+-- database: d:\Work\Gate Pass\Lucknow Department\Django\backend\db.sqlite3
+
+-- Use the ▷ button in the top right corner to run the entire file.
+
+DELETE FROM "gatePass_gatepass"

@@ -1,0 +1,10 @@
+* Start-Process -FilePath "C:\path\to\your_batch_file.bat" -WindowStyle Hidden
+
+
+Replace "C:\path\to\your_batch_file.bat" with the actual path to your batch file.
+
+Save the above script in a .ps1 file, for example, run_hidden.ps1. Then, you can run this PowerShell script to execute your batch file silently in the background.
+
+To execute the PowerShell script, you need to ensure that PowerShell script execution is allowed on your system. You can do this by opening PowerShell as an administrator and running the following command:
+
+* Set-ExecutionPolicy RemoteSigned
